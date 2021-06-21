@@ -1,0 +1,57 @@
+.welcome__container {
+  color: var(--iclinic-main);
+  padding-top: 210px;
+  text-align: center;
+}
+
+.welcome__header {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 72px;
+  margin-bottom: 10px;
+}
+
+.welcome__subheader {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  letter-spacing: 5px;
+  margin-bottom: 160px;
+}
+
+.welcome__button {
+  background: var(--iclinic-main);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  padding: 15px 50px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.welcome__loading {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 35px;
+  height: 18px;
+}
+
+@media screen and (max-width: 800px) {
+  .welcome__container {
+    padding-top: 100px;
+  }
+
+  .welcome__header {
+    font-size: 60px;
+  }
+}
+
+.welcome_error {
+  color: var(--error);
+  font-size: 14px;
+}

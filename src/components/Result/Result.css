@@ -1,0 +1,72 @@
+.result__container {
+  min-height: 100vh;
+  padding: 45px 50px;
+}
+
+.result__return {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-family: 'Montserrat';
+  cursor: pointer;
+  margin-bottom: 100px;
+}
+
+.result__return-icon {
+  margin-right: 20px;
+  font-size: 0;
+}
+
+.result__body-character {
+  margin-top: 100px;
+}
+
+.result__character-image {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.result__body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .result__body {
+    flex-direction: column-reverse;
+  }
+}
+
+.result__text {
+  font-family: 'Montserrat';
+  font-size: 36px;
+  margin-top: 50px;
+}
+
+.result__button {
+  background: var(--iclinic-main);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 30px;
+  position: relative;
+}
+
+.result__button-loading {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 25px;
+  height: 18px;
+}
+
+.return_error {
+  color: var(--error);
+  font-size: 14px;
+}
